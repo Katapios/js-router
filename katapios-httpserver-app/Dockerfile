@@ -1,6 +1,6 @@
-FROM node:14
+FROM node:16.13.0
 
-WORKDIR /bezkoder-app
+WORKDIR /katapios-httpserver-app
 COPY package.json .
 RUN npm install
 COPY . .
